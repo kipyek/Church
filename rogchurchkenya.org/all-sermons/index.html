@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="en-US" class="no-js no-svg">
+
+<!-- Mirrored from rogchurchkenya.org/all-sermons/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 21 Jun 2022 18:09:29 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head><script>if(navigator.userAgent.match(/MSIE|Internet Explorer/i)||navigator.userAgent.match(/Trident\/7\..*?rv:11/i)){var href=document.location.href;if(!href.match(/[?&]nowprocket/)){if(href.indexOf("?")==-1){if(href.indexOf("#")==-1){document.location.href=href+"?nowprocket=1"}else{document.location.href=href.replace("#","?nowprocket=1#")}}else{if(href.indexOf("#")==-1){document.location.href=href+"&nowprocket=1"}else{document.location.href=href.replace("#","&nowprocket=1#")}}}}</script><script>class RocketLazyLoadScripts{constructor(e){this.triggerEvents=e,this.eventOptions={passive:!0},this.userEventListener=this.triggerListener.bind(this),this.delayedScripts={normal:[],async:[],defer:[]},this.allJQueries=[]}_addUserInteractionListener(e){this.triggerEvents.forEach((t=>window.addEventListener(t,e.userEventListener,e.eventOptions)))}_removeUserInteractionListener(e){this.triggerEvents.forEach((t=>window.removeEventListener(t,e.userEventListener,e.eventOptions)))}triggerListener(){this._removeUserInteractionListener(this),this._loadEverythingNow()}async _loadEverythingNow(){this._handleDocumentWrite(),this._registerAllDelayedScripts(),this._preloadAllScripts(),await this._loadScriptsFromList(this.delayedScripts.normal),await this._loadScriptsFromList(this.delayedScripts.defer),await this._loadScriptsFromList(this.delayedScripts.async),await this._triggerDOMContentLoaded(),await this._triggerWindowLoad(),window.dispatchEvent(new Event("rocket-allScriptsLoaded"))}_registerAllDelayedScripts(){document.querySelectorAll("script[type=rocketlazyloadscript]").forEach((e=>{e.hasAttribute("src")?e.hasAttribute("async")&&!1!==e.async?this.delayedScripts.async.push(e):e.hasAttribute("defer")&&!1!==e.defer||"module"===e.getAttribute("data-rocket-type")?this.delayedScripts.defer.push(e):this.delayedScripts.normal.push(e):this.delayedScripts.normal.push(e)}))}async _transformScript(e){return await this._requestAnimFrame(),new Promise((t=>{var n=document.createElement("script");[...e.attributes].forEach((e=>{let t=e.nodeName;"type"!==t&&("data-rocket-type"===t&&(t="type"),n.setAttribute(t,e.nodeValue))})),e.hasAttribute("src")?(n.addEventListener("load",t),n.addEventListener("error",t)):(n.text=e.text,t()),e.parentNode.replaceChild(n,e)}))}async _loadScriptsFromList(e){const t=e.shift();return t?(await this._transformScript(t),this._loadScriptsFromList(e)):Promise.resolve()}_preloadAllScripts(){var e=document.createDocumentFragment();[...this.delayedScripts.normal,...this.delayedScripts.defer,...this.delayedScripts.async].forEach((t=>{const n=t.getAttribute("src");if(n){const t=document.createElement("link");t.href=n,t.rel="preload",t.as="script",e.appendChild(t)}})),document.head.appendChild(e)}_delayEventListeners(){let e={};function t(t,n){!function(t){function n(n){return e[t].eventsToRewrite.indexOf(n)>=0?"rocket-"+n:n}e[t]||(e[t]={originalFunctions:{add:t.addEventListener,remove:t.removeEventListener},eventsToRewrite:[]},t.addEventListener=function(){arguments[0]=n(arguments[0]),e[t].originalFunctions.add.apply(t,arguments)},t.removeEventListener=function(){arguments[0]=n(arguments[0]),e[t].originalFunctions.remove.apply(t,arguments)})}(t),e[t].eventsToRewrite.push(n)}function n(e,t){const n=e[t];Object.defineProperty(e,t,{get:n||function(){},set:n=>{e["rocket"+t]=n}})}t(document,"DOMContentLoaded"),t(window,"DOMContentLoaded"),t(window,"load"),t(window,"pageshow"),t(document,"readystatechange"),n(document,"onreadystatechange"),n(window,"onload"),n(window,"onpageshow")}_delayJQueryReady(e){let t;Object.defineProperty(window,"jQuery",{get:()=>t,set(n){if(n&&n.fn&&!e.allJQueries.includes(n)){n.fn.ready=n.fn.init.prototype.ready=function(t){e.domReadyFired?t.bind(document)(n):document.addEventListener("rocket-DOMContentLoaded",(()=>t.bind(document)(n)))};const t=n.fn.on;n.fn.on=n.fn.init.prototype.on=function(){if(this[0]===window){function e(e){return e.split(" ").map((e=>"load"===e?"rocket-load":e)).join(" ")}"string"==typeof arguments[0]||arguments[0]instanceof String?arguments[0]=e(arguments[0]):"object"==typeof arguments[0]&&Object.keys(arguments[0]).forEach((t=>{delete Object.assign(arguments[0],{[e(t)]:arguments[0][t]})[t]}))}return t.apply(this,arguments),this},e.allJQueries.push(n)}t=n}})}async _triggerDOMContentLoaded(){this.domReadyFired=!0,await this._requestAnimFrame(),document.dispatchEvent(new Event("rocket-DOMContentLoaded")),await this._requestAnimFrame(),window.dispatchEvent(new Event("rocket-DOMContentLoaded")),await this._requestAnimFrame(),document.dispatchEvent(new Event("rocket-readystatechange")),await this._requestAnimFrame(),document.rocketonreadystatechange&&document.rocketonreadystatechange()}async _triggerWindowLoad(){await this._requestAnimFrame(),window.dispatchEvent(new Event("rocket-load")),await this._requestAnimFrame(),window.rocketonload&&window.rocketonload(),await this._requestAnimFrame(),this.allJQueries.forEach((e=>e(window).trigger("rocket-load"))),window.dispatchEvent(new Event("rocket-pageshow")),await this._requestAnimFrame(),window.rocketonpageshow&&window.rocketonpageshow()}_handleDocumentWrite(){const e=new Map;document.write=document.writeln=function(t){const n=document.currentScript,r=document.createRange(),i=n.parentElement;let o=e.get(n);void 0===o&&(o=n.nextSibling,e.set(n,o));const a=document.createDocumentFragment();r.setStart(a,0),a.appendChild(r.createContextualFragment(t)),i.insertBefore(a,o)}}async _requestAnimFrame(){return new Promise((e=>requestAnimationFrame(e)))}static run(){const e=new RocketLazyLoadScripts(["keydown","mouseover","touchmove","touchstart","wheel"]);e._delayEventListeners(),e._delayJQueryReady(e),e._addUserInteractionListener(e)}}RocketLazyLoadScripts.run();
+</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="profile" href="http://gmpg.org/xfn/11">
+
+<title>All sermons &#8211; River of God Church</title><style id="rocket-critical-css">.fa{-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased;display:inline-block;font-style:normal;font-variant:normal;text-rendering:auto;line-height:1}.fa-arrow-circle-left:before{content:"\f0a8"}.fa-arrow-circle-right:before{content:"\f0a9"}.fa-asterisk:before{content:"\f069"}.fa-envelope:before{content:"\f0e0"}.fa-facebook:before{content:"\f09a"}.fa-twitter:before{content:"\f099"}@font-face{font-family:"Font Awesome 5 Brands";font-style:normal;font-weight:normal;font-display:swap;src:url(https://use.fontawesome.com/releases/v5.7.1/webfonts/fa-brands-400.eot);src:url(https://use.fontawesome.com/releases/v5.7.1/webfonts/fa-brands-400.eot?#iefix) format("embedded-opentype"),url(https://use.fontawesome.com/releases/v5.7.1/webfonts/fa-brands-400.woff2) format("woff2"),url(https://use.fontawesome.com/releases/v5.7.1/webfonts/fa-brands-400.woff) format("woff"),url(https://use.fontawesome.com/releases/v5.7.1/webfonts/fa-brands-400.ttf) format("truetype"),url(https://use.fontawesome.com/releases/v5.7.1/webfonts/fa-brands-400.svg#fontawesome) format("svg")}@font-face{font-family:"Font Awesome 5 Free";font-style:normal;font-weight:400;font-display:swap;src:url(https://use.fontawesome.com/releases/v5.7.1/webfonts/fa-regular-400.eot);src:url(https://use.fontawesome.com/releases/v5.7.1/webfonts/fa-regular-400.eot?#iefix) format("embedded-opentype"),url(https://use.fontawesome.com/releases/v5.7.1/webfonts/fa-regular-400.woff2) format("woff2"),url(https://use.fontawesome.com/releases/v5.7.1/webfonts/fa-regular-400.woff) format("woff"),url(https://use.fontawesome.com/releases/v5.7.1/webfonts/fa-regular-400.ttf) format("truetype"),url(https://use.fontawesome.com/releases/v5.7.1/webfonts/fa-regular-400.svg#fontawesome) format("svg")}@font-face{font-family:"Font Awesome 5 Free";font-style:normal;font-weight:900;font-display:swap;src:url(https://use.fontawesome.com/releases/v5.7.1/webfonts/fa-solid-900.eot);src:url(https://use.fontawesome.com/releases/v5.7.1/webfonts/fa-solid-900.eot?#iefix) format("embedded-opentype"),url(https://use.fontawesome.com/releases/v5.7.1/webfonts/fa-solid-900.woff2) format("woff2"),url(https://use.fontawesome.com/releases/v5.7.1/webfonts/fa-solid-900.woff) format("woff"),url(https://use.fontawesome.com/releases/v5.7.1/webfonts/fa-solid-900.ttf) format("truetype"),url(https://use.fontawesome.com/releases/v5.7.1/webfonts/fa-solid-900.svg#fontawesome) format("svg")}.fa{font-family:"Font Awesome 5 Free"}.fa{font-weight:900}html{font-family:sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}body{margin:0}footer,header,section{display:block}a{background:transparent}strong{font-weight:bold}h1{margin:.67em 0;font-size:2em}img{border:0}button,input{margin:0;font:inherit;color:inherit}button{overflow:visible}button{text-transform:none}button{-webkit-appearance:button}button::-moz-focus-inner,input::-moz-focus-inner{padding:0;border:0}input{line-height:normal}input[type="radio"]{box-sizing:border-box;padding:0}*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*:before,*:after{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}html{font-size:62.5%}body{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:14px;line-height:1.42857143;color:#333;background-color:#fff}input,button{font-family:inherit;font-size:inherit;line-height:inherit}a{color:#428bca;text-decoration:none}img{vertical-align:middle}h1,h2,h3{font-family:inherit;font-weight:500;line-height:1.1;color:inherit}h1,h2,h3{margin-top:20px;margin-bottom:10px}h1{font-size:36px}h2{font-size:30px}h3{font-size:24px}p{margin:0 0 10px}ul{margin-top:0;margin-bottom:10px}ul ul{margin-bottom:0}.container{padding-right:15px;padding-left:15px;margin-right:auto;margin-left:auto}@media (min-width:768px){.container{width:750px}}@media (min-width:992px){.container{width:970px}}@media (min-width:1200px){.container{width:1170px}}.row{margin-right:-15px;margin-left:-15px}.col-md-3,.col-sm-6,.col-md-9,.col-md-12{position:relative;min-height:1px;padding-right:15px;padding-left:15px}@media (min-width:768px){.col-sm-6{float:left}.col-sm-6{width:50%}}@media (min-width:992px){.col-md-3,.col-md-9,.col-md-12{float:left}.col-md-12{width:100%}.col-md-9{width:75%}.col-md-3{width:25%}}label{display:inline-block;margin-bottom:5px;font-weight:bold}input[type="radio"]{margin:4px 0 0;margin-top:1px \9;line-height:normal}.clearfix:before,.clearfix:after,.container:before,.container:after,.row:before,.row:after{display:table;content:" "}.clearfix:after,.container:after,.row:after{clear:both}.show{display:block!important}@-ms-viewport{width:device-width}.fa.fa-pencil:before{content:"\f303"}.fa.fa-twitter{font-family:'Font Awesome 5 Brands';font-weight:400}.fa.fa-facebook{font-family:'Font Awesome 5 Brands';font-weight:400}.fa.fa-facebook:before{content:"\f39e"}.fa.fa-envelope-o{font-family:'Font Awesome 5 Free';font-weight:400}.fa.fa-envelope-o:before{content:"\f0e0"}.fa{-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased;display:inline-block;font-style:normal;font-variant:normal;text-rendering:auto;line-height:1}.fa-arrow-circle-left:before{content:"\f0a8"}.fa-arrow-circle-right:before{content:"\f0a9"}.fa-asterisk:before{content:"\f069"}.fa-envelope:before{content:"\f0e0"}.fa-facebook:before{content:"\f09a"}.fa-twitter:before{content:"\f099"}@font-face{font-family:'Font Awesome 5 Brands';font-style:normal;font-weight:400;font-display:swap;src:url(https://rogchurchkenya.org/new/wp-content/plugins/js_composer/assets/lib/bower/font-awesome/webfonts/fa-brands-400.eot);src:url(https://rogchurchkenya.org/new/wp-content/plugins/js_composer/assets/lib/bower/font-awesome/webfonts/fa-brands-400.eot?#iefix) format("embedded-opentype"),url(https://rogchurchkenya.org/new/wp-content/plugins/js_composer/assets/lib/bower/font-awesome/webfonts/fa-brands-400.woff2) format("woff2"),url(https://rogchurchkenya.org/new/wp-content/plugins/js_composer/assets/lib/bower/font-awesome/webfonts/fa-brands-400.woff) format("woff"),url(https://rogchurchkenya.org/new/wp-content/plugins/js_composer/assets/lib/bower/font-awesome/webfonts/fa-brands-400.ttf) format("truetype"),url(https://rogchurchkenya.org/new/wp-content/plugins/js_composer/assets/lib/bower/font-awesome/webfonts/fa-brands-400.svg#fontawesome) format("svg")}@font-face{font-family:'Font Awesome 5 Free';font-style:normal;font-weight:400;font-display:swap;src:url(https://rogchurchkenya.org/new/wp-content/plugins/js_composer/assets/lib/bower/font-awesome/webfonts/fa-regular-400.eot);src:url(https://rogchurchkenya.org/new/wp-content/plugins/js_composer/assets/lib/bower/font-awesome/webfonts/fa-regular-400.eot?#iefix) format("embedded-opentype"),url(https://rogchurchkenya.org/new/wp-content/plugins/js_composer/assets/lib/bower/font-awesome/webfonts/fa-regular-400.woff2) format("woff2"),url(https://rogchurchkenya.org/new/wp-content/plugins/js_composer/assets/lib/bower/font-awesome/webfonts/fa-regular-400.woff) format("woff"),url(https://rogchurchkenya.org/new/wp-content/plugins/js_composer/assets/lib/bower/font-awesome/webfonts/fa-regular-400.ttf) format("truetype"),url(https://rogchurchkenya.org/new/wp-content/plugins/js_composer/assets/lib/bower/font-awesome/webfonts/fa-regular-400.svg#fontawesome) format("svg")}@font-face{font-family:'Font Awesome 5 Free';font-style:normal;font-weight:900;font-display:swap;src:url(https://rogchurchkenya.org/new/wp-content/plugins/js_composer/assets/lib/bower/font-awesome/webfonts/fa-solid-900.eot);src:url(https://rogchurchkenya.org/new/wp-content/plugins/js_composer/assets/lib/bower/font-awesome/webfonts/fa-solid-900.eot?#iefix) format("embedded-opentype"),url(https://rogchurchkenya.org/new/wp-content/plugins/js_composer/assets/lib/bower/font-awesome/webfonts/fa-solid-900.woff2) format("woff2"),url(https://rogchurchkenya.org/new/wp-content/plugins/js_composer/assets/lib/bower/font-awesome/webfonts/fa-solid-900.woff) format("woff"),url(https://rogchurchkenya.org/new/wp-content/plugins/js_composer/assets/lib/bower/font-awesome/webfonts/fa-solid-900.ttf) format("truetype"),url(https://rogchurchkenya.org/new/wp-content/plugins/js_composer/assets/lib/bower/font-awesome/webfonts/fa-solid-900.svg#fontawesome) format("svg")}.fa{font-family:'Font Awesome 5 Free';font-weight:900}button::-moz-focus-inner{padding:0;border:0}button,input{overflow:visible}html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}footer,header,section{display:block}h1{font-size:2em;margin:.67em 0}a{background-color:transparent;-webkit-text-decoration-skip:objects}strong{font-weight:bolder}img{border-style:none}button,input{font-family:sans-serif;font-size:100%;line-height:1.15;margin:0}button{text-transform:none}button,html [type=button]{-webkit-appearance:button}[type=button]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,button:-moz-focusring{outline:ButtonText dotted 1px}[type=radio]{box-sizing:border-box;padding:0}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}body{font-family:"Open Sans",Arial,Helvetica,sans-serif;font-size:13px;line-height:1.7em;margin:0;padding:0;color:#888;background:#fff;text-shadow:none}#wrapper{overflow:hidden}.site-header{position:absolute;width:100%;z-index:100}.site-header .logo-2{display:none}.site-header .social{margin-top:40px;display:inline-block;float:right}.site-header .social a{color:#fff;font-size:18px;padding:0 8px 0 8px}.octf__cta_button{float:right;display:inline-block;margin-top:25px;margin-left:40px}#subheader{background:url(https://rogchurchkenya.org/new/wp-content/themes/blessing/assets/images/bg-subheader.jpg) top;padding:150px 0 70px 0;background-size:cover;text-align:center}#subheader h1{font-family:"Open Sans",Arial,Helvetica,sans-serif;letter-spacing:5px;text-transform:uppercase;color:#fff;font-weight:400;font-size:32px;text-align:center;margin-bottom:20px;overflow:hidden;text-align:center;border-top:solid 1px rgba(255,255,255,.1);border-bottom:solid 1px rgba(255,255,255,.1);display:block;padding:10px}h1,h2,h3{color:#333;font-family:"Montserrat"}h3{font-weight:lighter}footer h3{font-weight:500;color:#fff}h1{font-size:28px;margin:0;margin-bottom:20px;letter-spacing:-1px;font-weight:500}h2{font-size:26px;font-weight:500}h3{font-size:20px}strong{color:#333}a{color:#8ec92f;text-decoration:none;outline:none!important}#logo{text-align:center}#logo .inner{display:table-cell;vertical-align:middle;height:100px}#logo .inner img{max-width:100%;max-height:100%}section{overflow:hidden;padding:60px 0 60px 0;background:#fff}h3{font-weight:500;margin-bottom:20px}#mainmenu-container{font-family:"Montserrat";text-align:center;height:60px;margin-top:20px;display:inline-block}#mainmenu{font-size:12px;display:inline-block;text-align:left;text-transform:uppercase;letter-spacing:1px}#mainmenu a{outline:none}#mainmenu ul{float:right;margin:0px 0px;padding:0px 0px;padding-top:23px}#mainmenu li{margin:0px 0px;padding:0px 0px;float:left;display:inline;list-style:none;position:relative}#mainmenu a{display:block;padding:20px 14px 17px 14px;text-decoration:none;color:#fff}ul#mainmenu>li:last-child>a{padding-right:0px}#mainmenu>li>a{color:#555}#mainmenu li li,#mainmenu li li:last-child{font-size:14px;border-left:none;border-right:none}#mainmenu li li a{padding:10px 15px 10px 15px;color:#fff;background:#8ec92f;border-top:none;text-transform:none;letter-spacing:normal}#mainmenu li li.current-menu-item>a{border-top:none;color:#fff;background:#57647e}#mainmenu li ul{width:220px;position:absolute;top:100%;left:0px;z-index:10;display:none}#mainmenu li li{display:block;float:none}#mainmenu li ul ul{left:100%;top:0px;padding-top:0px}#mainmenu>li.current-menu-ancestor>a{color:#8ec92f}#menu-btn{position:relative;z-index:1000;display:none;float:right;margin-top:12px;width:36px;height:36px;background:#303030;padding:6px;text-align:center;border-radius:2px;-moz-border-radius:2px;-webkit-border-radius:2px}#menu-btn:before{font-family:FontAwesome;content:"\f0c9";font-size:24px;color:#fff}footer.site-footer{background:#111111;color:#ccc;padding:0px;margin:0px}footer.site-footer .main-footer{padding:80px 0px 10px 0px}footer.site-footer .main-footer .widget{margin-bottom:30px}footer.site-footer .main-footer .widget h3{font-size:20px;text-transform:none;font-weight:500;margin-top:0px;margin-bottom:20px}#back-to-top{background:#f5f5f5;border:0 none;border-radius:2px;bottom:40px;height:32px;line-height:30px;opacity:0;outline:medium none;position:fixed;right:40px;text-align:center;text-decoration:none;width:32px;z-index:1000}#back-to-top.show{opacity:1}#back-to-top:before{color:#222;content:"\f106";font-family:"FontAwesome";font-size:22px;margin:5px;position:relative}.col-md-3{margin-left:-1px}@media (min-width:992px) and (max-width:1199px){.site-header .social,.octf__cta_button{display:none}}@media only screen and (max-width:992px){.octf__cta_button{display:none}.col-md-3,.col-md-9,.col-md-12{margin-bottom:30px}.site-header .logo-2{display:block}.site-header .logo-1{display:none}.site-header #logo{display:block}#subheader{padding:40px 0 0px 0}#logo{margin:0 auto;width:100%;text-align:left}#logo .inner{width:100%;height:60px;margin:0px 0 0px 0}.site-header .col-md-3,.site-header .col-md-9{margin-bottom:inherit}#mainmenu{margin:0;padding:0;margin-top:0px}#mainmenu-container{border:none;display:none;height:auto}.site-header,footer,#subheader{padding-left:20px;padding-right:20px}.site-header .social{width:100%;margin:40px 0 40px 0;display:none}#menu-btn{display:block}#mainmenu>li{font-size:16px;margin-bottom:0}#mainmenu li li{padding-left:30px;background:white!important}#mainmenu li ul{display:block;position:inherit;margin:0;width:100%}#mainmenu li{border-bottom:solid 1px #eee;margin:0;width:100%;text-align:left;display:block;letter-spacing:3px}#mainmenu li:last-child{margin-bottom:30px}#mainmenu>li li:first-child{border-top:solid 1px #eee}#mainmenu li ul{border-top:solid 1px #333;border:none;margin-top:0px;padding-top:0px;top:0px}#mainmenu li ul ul{margin-top:0px;left:0px}#mainmenu li ul a{width:100%;background:white!important;border:none}#mainmenu li a,#mainmenu>li>a,.site-header .social a{color:#555;letter-spacing:0}#mainmenu li li.current-menu-item>a{background:white!important}#mainmenu li ul li a{display:block}#mainmenu li ul li:last-child{border-bottom:none;margin:0}#mainmenu li ul li:last-child a{border-bottom:none}}@media only screen and (max-width:479px){#subheader h1{font-size:22px;letter-spacing:1px}}.has-header-cta #mainmenu-container{width:auto;float:right}.page img{max-width:100%;height:auto}.vc_column_container{width:100%}.vc_col-sm-12{position:relative;min-height:1px;padding-left:15px;padding-right:15px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}@media (min-width:768px){.vc_col-sm-12{float:left}.vc_col-sm-12{width:100%}}.wpb_text_column :last-child,.wpb_text_column p:last-child{margin-bottom:0}.wpb_content_element{margin-bottom:35px}.vc_column-inner::after,.vc_column-inner::before{content:" ";display:table}.vc_column-inner::after{clear:both}.vc_column_container{padding-left:0;padding-right:0}.vc_column_container>.vc_column-inner{box-sizing:border-box;padding-left:15px;padding-right:15px;width:100%}@font-face{font-display:swap;font-family:'FontAwesome';src:url(https://rogchurchkenya.org/new/wp-content/plugins/multi-step-form/dist/fonts/fontawesome-webfont.eot?v=4.7.0);src:url(https://rogchurchkenya.org/new/wp-content/plugins/multi-step-form/dist/fonts/fontawesome-webfont.eot?#iefix&v=4.7.0) format('embedded-opentype'),url(https://rogchurchkenya.org/new/wp-content/plugins/multi-step-form/dist/fonts/fontawesome-webfont.woff2?v=4.7.0) format('woff2'),url(https://rogchurchkenya.org/new/wp-content/plugins/multi-step-form/dist/fonts/fontawesome-webfont.woff?v=4.7.0) format('woff'),url(https://rogchurchkenya.org/new/wp-content/plugins/multi-step-form/dist/fonts/fontawesome-webfont.ttf?v=4.7.0) format('truetype'),url(https://rogchurchkenya.org/new/wp-content/plugins/multi-step-form/dist/fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular) format('svg');font-weight:normal;font-style:normal}.fa{display:inline-block;font:normal normal normal 14px/1 FontAwesome;font-size:inherit;text-rendering:auto;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.fa-envelope-o:before{content:"\f003"}.fa-pencil:before{content:"\f040"}.fa-asterisk:before{content:"\f069"}.fa-twitter:before{content:"\f099"}.fa-facebook:before{content:"\f09a"}.fa-arrow-circle-left:before{content:"\f0a8"}.fa-arrow-circle-right:before{content:"\f0a9"}.fa-envelope:before{content:"\f0e0"}#multi-step-form.fw-wizard{font-size:14px}#multi-step-form.fw-wizard p{margin-bottom:2px}#multi-step-form .fw-container{margin-right:auto;margin-left:auto;width:100%}#multi-step-form .fw-alert-user{position:fixed;color:white;font-size:22px;font-weight:normal;text-align:center;padding:15px;z-index:4;bottom:150px;width:80%;left:50%;margin-left:-45%;line-height:1.5;overflow:hidden;letter-spacing:.03em;padding:20px 30px 20px 30px!important;-ms-filter:"alpha(opacity=95)"!important;filter:alpha(opacity=95)!important;-moz-opacity:.95!important;-khtml-opacity:.95!important;opacity:.95!important;-webkit-box-shadow:2px 2px 20px 0 rgba(0,0,0,0.2);-moz-box-shadow:2px 2px 20px 0 rgba(0,0,0,0.3);box-shadow:2px 2px 20px 0 rgba(0,0,0,0.3)}#multi-step-form .fw-clearfix{clear:both}#multi-step-form .fw-wizard-step{display:none}#multi-step-form .fw-wizard-buttons{margin-top:30px}#multi-step-form .fw-wizard-buttons button{height:39px;line-height:39px;padding:0 22px;margin-top:10px;font-size:14px;color:#fff;border:0;text-transform:uppercase;letter-spacing:.05em;font-weight:normal}#multi-step-form .fw-btn-submit,#multi-step-form .fw-toggle-summary{padding:20px 20px!important;font-size:14px;border:0;width:100%;background:#e9e9e9;color:#333;margin-top:15px;text-transform:uppercase;font-weight:normal}#multi-step-form .fw-btn-submit{background:#aaa;color:#fff;margin-top:25px}#multi-step-form .fw-summary-alert{background-color:#f44336;padding:10px;text-align:center;text-transform:uppercase;font-size:13px;color:white}#multi-step-form .fw-step-block{margin-bottom:40px}#multi-step-form .fw-step-block:last-child{margin-bottom:0}#multi-step-form .fw-step-block input{display:inline-block!important;width:99%!important}#multi-step-form .fw-copytext{font-size:1.2em;line-height:1.4}#multi-step-form [data-type=fw-radio] label:before{content:"";display:inline-block;width:25px;height:25px;margin-right:10px;position:absolute;left:0;top:0;bottom:1px;border:1px solid #ddd;border-radius:25px;background-color:#fff}#multi-step-form [data-type=fw-radio] label{display:inline-block;position:relative;padding-left:35px;margin-right:15px;font-size:1.2em;line-height:28px;font-weight:400}#multi-step-form input.fw-radio{position:absolute;left:-9999px}#multi-step-form div[data-required="true"] h3:after{content:"*";color:#f44336;font-size:1.5em;position:relative;top:0;left:5px}#multi-step-form .fw-wizard-step-header-container{margin-bottom:20px}#multi-step-form .fw-wizard-step{position:relative}#multi-step-form .fw-step-part{float:left;width:100%;background:#e9e9e9 none repeat scroll 0 0;margin:0 0 50px 0;padding:20px 0 20px 0;position:relative;border-left:10px solid #546e7a;box-sizing:border-box}#multi-step-form .fw-step-part:nth-last-of-type(2){margin:0 0 10px 0}#multi-step-form .fw-step-part>div{margin:0 20px 0 20px}#multi-step-form .fw-wizard-step-header{height:0;overflow:hidden}#multi-step-form .fw-wizard-step-header h2{font-size:2.5em;font-family:inherit;line-height:1.2}#multi-step-form .fw-wizard-step-header p{line-height:1.6;font-family:inherit}#multi-step-form h2.fw-step-part-title{float:left;margin:0 20px 20px 20px;font-size:1.8em;font-weight:normal;line-height:1.2}#multi-step-form .fw-wizard-step-container h3{font-weight:normal;font-size:1.2em;margin:10px 0 10px 0}#multi-step-form .fw-text-input,#multi-step-form .fw-text-input[type="text"]{width:100%;border:1px solid #ddd;outline:0;line-height:1.6em;font-size:13px;background-color:#fff;color:#555;box-sizing:border-box;padding-left:60px;position:relative}#multi-step-form .fw-text-input{height:40px}#multi-step-form .fa.form-control-feedback{position:absolute;display:inline-block;top:auto;line-height:initial;border-right:1px solid #ddd;box-sizing:border-box;color:#bbb;font-size:18px;height:20px;left:35px;margin-top:10px;padding:0 10px 0 0;width:30px}#multi-step-form .fw-button-previous{margin-right:5px}#multi-step-form .fw-button-previous,#multi-step-form .fw-button-next{font-weight:700}@media screen and (max-width:700px){#multi-step-form span.fw-radio-row{display:block;padding-right:10px}}@media all and (min-width:1023px){#multi-step-form .fw-wizard-buttons{margin-top:30px}}@media all and (min-width:769px){#multi-step-form .fw-step-part{padding:30px 0 30px 0;border-left:55px solid #546e7a}#multi-step-form .fw-wizard-step-header h2{margin:0 0 25px;line-height:1.4}#multi-step-form .fw-text-input,#multi-step-form .fw-text-input[type="text"]{width:50%}#multi-step-form h2.fw-step-part-title{margin:0 20px 20px 20px!important}#multi-step-form .fw-wizard-step-container h3{margin:10px 0 10px 0}#multi-step-form .fw-alert-user{width:60%;margin-left:-30%;bottom:150px}#multi-step-form .fw-wizard-step-header-container{margin-bottom:40px}}@media (max-width:480px){#multi-step-form .fw-button-previous,#multi-step-form .fw-button-next{width:100%}}#multi-step-form .fw-progress-wrap{color:#555;max-width:1800px;min-height:55px;position:relative;margin:0}#multi-step-form .fw-progress-bar-container{margin-bottom:30px}#multi-step-form .fw-progress-bar{margin:0!important;padding:0}#multi-step-form .fw-progress-bar .fw-progress-step{color:#555;display:block;font-size:1.4em;padding:15px 20px 15px 60px;position:relative;margin-bottom:10px}#multi-step-form .fw-progress-bar .fw-progress-step:before{border-radius:50%;color:#fff;font-size:40px;left:0;line-height:44px;position:absolute;text-align:center;top:4px;height:50px;width:50px;padding-top:2px;z-index:1;box-sizing:border-box;font-weight:700;font-family:'Open Sans',Arial,sans-serif}#multi-step-form .fw-progress-bar .fw-progress-step:nth-child(1):before{content:"1"!important}#multi-step-form .fw-progress-bar .fw-progress-step:nth-child(2):before{content:"2"!important}#multi-step-form .fw-progress-bar .fw-progress-step:nth-child(3):before{content:"3"!important}#multi-step-form .fw-progress-bar .fw-progress-step:last-child:before{font-family:FontAwesome!important;content:"\f024"!important;font-size:28px;padding-top:5px}@media all and (max-width:480px){#multi-step-form .fw-progress-bar .fw-progress-step{padding:10px 20px 0 60px!important;min-height:50px;font-size:16px}}@media all and (min-width:1023px){#multi-step-form .fw-progress-bar-container{margin-top:30px}}</style><link rel="preload" href="../wp-content/cache/min/1/b676b3b35bbcd07f3e8eaed36bf411b2.css" data-rocket-async="style" as="style" onload="this.onload=null;this.rel='stylesheet'" media="all" data-minify="1" />
+<meta name='robots' content='max-image-preview:large' />
+<link rel='dns-prefetch' href='http://maps.googleapis.com/' />
+<link rel='dns-prefetch' href='http://use.fontawesome.com/' />
+<link rel='dns-prefetch' href='http://fonts.googleapis.com/' />
+<link href='https://fonts.gstatic.com/' crossorigin rel='preconnect' />
+<link rel="alternate" type="application/rss+xml" title="River of God Church &raquo; Feed" href="../feed/index.html" />
+<link rel="alternate" type="application/rss+xml" title="River of God Church &raquo; Comments Feed" href="../comments/feed/index.html" />
+<link rel="alternate" type="text/calendar" title="River of God Church &raquo; iCal Feed" href="../events/indexedf3.html?ical=1" />
+<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	
+
+
+
+
+<style id='rs-plugin-settings-inline-css' type='text/css'>
+#rs-demo-id {}
+</style>
+<link rel='preload'   href='https://fonts.googleapis.com/css?family=Open+Sans%3A300%2C300italic%2C400%2C400italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%7CRoboto+Slab%3A100%2C300%2C400%2C700%7CMontserrat%3A400%2C700%7CMerriweather%3A400%2C700%2C900%2C400italic%2C700italic%2C900italic&amp;subset=latin%2Clatin-ext&amp;display=swap' data-rocket-async="style" as="style" onload="this.onload=null;this.rel='stylesheet'" type='text/css' media='all' />
+
+
+
+
+
+
+
+
+
+
+<style id='blessing-style-inline-css' type='text/css'>
+
+    	::selection {
+			color: #fff;
+			background:  #36899e;
+		}
+		::-moz-selection {
+			color: #fff;
+			background:  #36899e;
+		}
+
+		/* default color: #8ec92f */
+		/* Color */
+		a{color: #36899e;}
+		a:hover{color:#222;}
+		
+		.event-list span.time:before,		
+		.countdown li span,
+		blockquote:before, .text-title h2,
+		.hover .btn-view-details,
+		.pagination li a, .woocommerce .star-rating span, .woocommerce .star-rating::before,
+		.price .woocommerce-Price-amount, .site-header .info ul.info-list li i
+		{color: #36899e;}
+
+		#mainmenu > li.current-menu-ancestor > a, #mainmenu > li > a:hover, .site-header .social a:hover,
+		#mainmenu > li.current-menu-item > a, header.cbp-af-header.cbp-af-header-shrink #mainmenu > li > a:hover,
+		.site-header.cbp-af-header.cbp-af-header-shrink #mainmenu > li.current-menu-item > a 
+		{color: #6cb330;}
+
+		/* Background Color */
+		.bg-color, .custom-carousel-2 .item-blog .date,
+		.custom-col-3 i:hover, 
+		.content-group-1 .date-wrap .date,
+		.event-item .right-col,
+		.btn-custom, a.btn-icon:hover,
+		.lessons-list .media a, .button.btn.btn-line:hover,
+		#page-events, #page-blog, #menu-btn.active,
+		#sidebar .wp-tag-cloud li a,
+		.date-box, #filters a.selected,
+		.f_box, .featured-box-pic .btn-custom,
+		.event-list .date .month,
+		.testi-slider .flex-control-paging li a.flex-active,
+		.info-box:hover, .info-box .price,
+		.pagination li.active a, .pagination li.active a:hover, 
+		.pagination li span.current, 
+		.pagination li span.current:hover,
+		.st-btn, .fc-widget-header, #back-to-top, #btn-search,
+		.woocommerce #respond input#submit, .woocommerce a.button, 
+		.woocommerce button.button, .woocommerce input.button, .woocommerce-cart .wc-proceed-to-checkout a.checkout-button,
+		.woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt
+		{background-color:  #36899e;}
+
+		/* Border Color */
+		.title-text:before,
+		.title-text:after,
+		.custom-col-3:hover,
+		.custom-col-3 i:hover,
+		.countdown-container h3,
+		a.btn-icon:hover, .blog-post article:hover,
+		.hover .btn-view-details,
+		.custom-carousel-2 .item-blog:hover,
+		.pagination li.active a, .pagination li.active a:hover, 
+		.pagination li span.current, .pagination li span.current:hover, .button.btn.btn-line:hover
+		{border-color:  #36899e;}	
+		
+		body.royal_preloader{background-color: #212121;}
+
+		@media only screen and (max-width: 992px) {
+			#mainmenu li a, #mainmenu > li > a, .site-header .social a {
+				color:#555 !important;
+			}
+			#mainmenu li ul li a:hover{
+				color:#6cb330 !important;
+			}	
+			#mainmenu > li.current-menu-ancestor > a, #mainmenu li a:hover, #mainmenu li li a:hover, #mainmenu li li.current-menu-item > a{
+				color:#6cb330 !important;
+			}	
+			.site-header .info, .site-header .info ul.info-list li span, 
+			.site-header .info ul.info-list li strong, .site-header .info .social a{
+				color:#555 !important;
+			}
+		}
+
+		@media only screen and (min-width: 993px) {
+			#mainmenu li li a{
+				background-color: ;
+				color:#fff;
+			}
+			#mainmenu li li a:hover, #mainmenu li li.current-menu-item > a {				
+				color:#36899e;
+				background:;
+			}
+		}
+</style>
+
+<script type="rocketlazyloadscript" data-rocket-type='text/javascript' src='../wp-includes/js/jquery/jquery.minaf6c.js?ver=3.6.0' id='jquery-core-js'></script>
+<script type="rocketlazyloadscript" data-rocket-type='text/javascript' src='../wp-includes/js/jquery/jquery-migrate.mind617.js?ver=3.3.2' id='jquery-migrate-js'></script>
+<script type="rocketlazyloadscript" data-rocket-type='text/javascript' src='../wp-content/plugins/revslider/public/assets/js/rbtools.min75e4.js?ver=6.4.5' id='tp-tools-js'></script>
+<script type="rocketlazyloadscript" data-rocket-type='text/javascript' src='../wp-content/plugins/revslider/public/assets/js/rs6.minb7f2.js?ver=6.4.8' id='revmin-js'></script>
+<script type="rocketlazyloadscript" data-rocket-type='text/javascript' src='https://maps.googleapis.com/maps/api/js?key=AIzaSyAvpnlHRidMIU374bKM5-sx8ruc01OvDjI&amp;ver=1.0' id='blessing-mapapi-js'></script>
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-type='text/javascript' src='../wp-content/cache/min/1/wp-content/themes/blessing/assets/js/magnific-popupd71c.js?ver=1625592069' id='blessing-magnific-js'></script>
+<script type="rocketlazyloadscript" data-rocket-type='text/javascript' src='../wp-content/themes/blessing/assets/js/jquery.countdown.min5152.js?ver=1.0' id='blessing-countdown-js'></script>
+<link rel="https://api.w.org/" href="../wp-json/index.html" /><link rel="alternate" type="application/json" href="../wp-json/wp/v2/pages/10743.json" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="../xmlrpc0db0.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="../wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.8.3" />
+<link rel="canonical" href="index.html" />
+<link rel='shortlink' href='../index14e2.html?p=10743' />
+<link rel="alternate" type="application/json+oembed" href="../wp-json/oembed/1.0/embed2441.json?url=https%3A%2F%2Frogchurchkenya.org%2Fall-sermons%2F" />
+<link rel="alternate" type="text/xml+oembed" href="../wp-json/oembed/1.0/embed9dce?url=https%3A%2F%2Frogchurchkenya.org%2Fall-sermons%2F&amp;format=xml" />
+	<script type="rocketlazyloadscript" data-rocket-type="text/javascript">
+		var ajaxurl = '../wp-admin/admin-ajax.html';
+		var security= '49630f89fd';
+	</script>
+	<!--
+ 
+   ____ _                    _          _       _           _         ____  _             _       
+  / ___| |__  _   _ _ __ ___| |__      / \   __| |_ __ ___ (_)_ __   |  _ \| |_   _  __ _(_)_ __  
+ | |   | '_ \| | | | '__/ __| '_ \    / _ \ / _` | '_ ` _ \| | '_ \  | |_) | | | | |/ _` | | '_ \ 
+ | |___| | | | |_| | | | (__| | | |  / ___ \ (_| | | | | | | | | | | |  __/| | |_| | (_| | | | | |
+  \____|_| |_|\__,_|_|  \___|_| |_| /_/   \_\__,_|_| |_| |_|_|_| |_| |_|   |_|\__,_|\__, |_|_| |_|
+                                                                                    |___/                   
+
+ Version: 3.4.120-->
+    <style>table.church_admin_calendar{width:630px}</style><meta name="tec-api-version" content="v1"><meta name="tec-api-origin" content="https://rogchurchkenya.org"><link rel="alternate" href="../wp-json/tribe/events/v1/index.html" /><meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress."/>
+<meta name="generator" content="Powered by Slider Revolution 6.4.8 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
+<link rel="icon" href="../wp-content/uploads/2021/05/cropped-transparent-logo_317-1-32x32.png" sizes="32x32" />
+<link rel="icon" href="../wp-content/uploads/2021/05/cropped-transparent-logo_317-1-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="../wp-content/uploads/2021/05/cropped-transparent-logo_317-1-180x180.png" />
+<meta name="msapplication-TileImage" content="https://rogchurchkenya.org/wp-content/uploads/2021/05/cropped-transparent-logo_317-1-270x270.png" />
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript">function setREVStartSize(e){
+			//window.requestAnimationFrame(function() {				 
+				window.RSIW = window.RSIW===undefined ? window.innerWidth : window.RSIW;	
+				window.RSIH = window.RSIH===undefined ? window.innerHeight : window.RSIH;	
+				try {								
+					var pw = document.getElementById(e.c).parentNode.offsetWidth,
+						newh;
+					pw = pw===0 || isNaN(pw) ? window.RSIW : pw;
+					e.tabw = e.tabw===undefined ? 0 : parseInt(e.tabw);
+					e.thumbw = e.thumbw===undefined ? 0 : parseInt(e.thumbw);
+					e.tabh = e.tabh===undefined ? 0 : parseInt(e.tabh);
+					e.thumbh = e.thumbh===undefined ? 0 : parseInt(e.thumbh);
+					e.tabhide = e.tabhide===undefined ? 0 : parseInt(e.tabhide);
+					e.thumbhide = e.thumbhide===undefined ? 0 : parseInt(e.thumbhide);
+					e.mh = e.mh===undefined || e.mh=="" || e.mh==="auto" ? 0 : parseInt(e.mh,0);		
+					if(e.layout==="fullscreen" || e.l==="fullscreen") 						
+						newh = Math.max(e.mh,window.RSIH);					
+					else{					
+						e.gw = Array.isArray(e.gw) ? e.gw : [e.gw];
+						for (var i in e.rl) if (e.gw[i]===undefined || e.gw[i]===0) e.gw[i] = e.gw[i-1];					
+						e.gh = e.el===undefined || e.el==="" || (Array.isArray(e.el) && e.el.length==0)? e.gh : e.el;
+						e.gh = Array.isArray(e.gh) ? e.gh : [e.gh];
+						for (var i in e.rl) if (e.gh[i]===undefined || e.gh[i]===0) e.gh[i] = e.gh[i-1];
+											
+						var nl = new Array(e.rl.length),
+							ix = 0,						
+							sl;					
+						e.tabw = e.tabhide>=pw ? 0 : e.tabw;
+						e.thumbw = e.thumbhide>=pw ? 0 : e.thumbw;
+						e.tabh = e.tabhide>=pw ? 0 : e.tabh;
+						e.thumbh = e.thumbhide>=pw ? 0 : e.thumbh;					
+						for (var i in e.rl) nl[i] = e.rl[i]<window.RSIW ? 0 : e.rl[i];
+						sl = nl[0];									
+						for (var i in nl) if (sl>nl[i] && nl[i]>0) { sl = nl[i]; ix=i;}															
+						var m = pw>(e.gw[ix]+e.tabw+e.thumbw) ? 1 : (pw-(e.tabw+e.thumbw)) / (e.gw[ix]);					
+						newh =  (e.gh[ix] * m) + (e.tabh + e.thumbh);
+					}				
+					if(window.rs_init_css===undefined) window.rs_init_css = document.head.appendChild(document.createElement("style"));					
+					document.getElementById(e.c).height = newh+"px";
+					window.rs_init_css.innerHTML += "#"+e.c+"_wrapper { height: "+newh+"px }";				
+				} catch(e){
+					console.log("Failure at Presize of Slider:" + e)
+				}					   
+			//});
+		  };</script>
+		<style type="text/css" id="wp-custom-css">
+			.row-price{
+	display: none;
+}
+#mainmenu li li a:hover{
+	background-color: white !important;
+}
+#mainmenu li li a:hover, #mainmenu li li.current-menu-item > a{
+	background-color: white !important;
+}
+
+@media only screen and (max-width: 992px){
+	#mainmenu li {
+    border-bottom: solid 1px #eee;
+    margin: 0;
+    width: 100%;
+    text-align: left;
+    display: block;
+    letter-spacing: 3px;
+		background-color: white !important;
+}
+}
+
+
+		</style>
+		<style id="kirki-inline-styles">#royal_preloader.royal_preloader_logo .royal_preloader_percentage{font-family:Open Sans;font-size:13px;font-weight:400;letter-spacing:2px;line-height:40px;text-align:center;text-transform:none;color:#f8f8f8;}#mainmenu > li > a, .site-header .social a{color:#ffffff;}header.cbp-af-header.cbp-af-header-shrink #mainmenu > li > a, header.cbp-af-header.cbp-af-header-shrink .social a{color:#333333;}.menu-back.cbp-af-header{background-color:rgba(255,255,255,0);}header.cbp-af-header.cbp-af-header-shrink{background-color:rgba(255, 255, 255, 0.95);border-bottom-color:#eeeeee;}ul#mainmenu > li > a{font-family:Montserrat;font-size:12px;font-weight:800;letter-spacing:1px;line-height:1.7em;text-align:left;text-transform:uppercase;}ul#mainmenu li li a{font-family:Montserrat;font-size:12px;font-weight:800;letter-spacing:normal;line-height:1.7em;text-align:left;text-transform:none;}footer.site-footer, footer.site-footer h3{color:#ffffff;}footer.site-footer .sub-footer{color:#cccccc;background-color:#0b0b0b;padding-top:40px;padding-bottom:40px;}footer.site-footer{background-color:#111111;}footer.site-footer .main-footer{padding-top:80px;padding-bottom:10px;}body{font-family:Montserrat;font-size:13px;font-weight:400;letter-spacing:0px;line-height:1.7em;text-align:inherit;text-transform:none;color:#000000;}@media (max-width: 767px){}@media (min-width: 768px) and (max-width: 1024px){}@media (min-width: 1024px){}/* cyrillic-ext */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(../wp-content/fonts/open-sans/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4taVQUwaEQXjN_mQ.woff) format('woff');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(../wp-content/fonts/open-sans/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4kaVQUwaEQXjN_mQ.woff) format('woff');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(../wp-content/fonts/open-sans/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4saVQUwaEQXjN_mQ.woff) format('woff');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(../wp-content/fonts/open-sans/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4jaVQUwaEQXjN_mQ.woff) format('woff');
+  unicode-range: U+0370-03FF;
+}
+/* hebrew */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(../wp-content/fonts/open-sans/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4iaVQUwaEQXjN_mQ.woff) format('woff');
+  unicode-range: U+0590-05FF, U+20AA, U+25CC, U+FB1D-FB4F;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(../wp-content/fonts/open-sans/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4vaVQUwaEQXjN_mQ.woff) format('woff');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(../wp-content/fonts/open-sans/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4uaVQUwaEQXjN_mQ.woff) format('woff');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(../wp-content/fonts/open-sans/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4gaVQUwaEQXjM.woff) format('woff');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}/* cyrillic-ext */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../wp-content/fonts/montserrat/JTUSjIg1_i6t8kCHKm459WRhzSTh89ZNpQ.woff) format('woff');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../wp-content/fonts/montserrat/JTUSjIg1_i6t8kCHKm459W1hzSTh89ZNpQ.woff) format('woff');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../wp-content/fonts/montserrat/JTUSjIg1_i6t8kCHKm459WZhzSTh89ZNpQ.woff) format('woff');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../wp-content/fonts/montserrat/JTUSjIg1_i6t8kCHKm459WdhzSTh89ZNpQ.woff) format('woff');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../wp-content/fonts/montserrat/JTUSjIg1_i6t8kCHKm459WlhzSTh89Y.woff) format('woff');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(../wp-content/fonts/montserrat/JTURjIg1_i6t8kCHKm45_c5H3gTD-Px3rCubqg.woff) format('woff');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(../wp-content/fonts/montserrat/JTURjIg1_i6t8kCHKm45_c5H3g3D-Px3rCubqg.woff) format('woff');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(../wp-content/fonts/montserrat/JTURjIg1_i6t8kCHKm45_c5H3gbD-Px3rCubqg.woff) format('woff');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(../wp-content/fonts/montserrat/JTURjIg1_i6t8kCHKm45_c5H3gfD-Px3rCubqg.woff) format('woff');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(../wp-content/fonts/montserrat/JTURjIg1_i6t8kCHKm45_c5H3gnD-Px3rCs.woff) format('woff');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}</style><noscript><style> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript><noscript><style id="rocket-lazyload-nojs-css">.rll-youtube-player, [data-lazy-src]{display:none !important;}</style></noscript><script type="rocketlazyloadscript">
+/*! loadCSS rel=preload polyfill. [c]2017 Filament Group, Inc. MIT License */
+(function(w){"use strict";if(!w.loadCSS){w.loadCSS=function(){}}
+var rp=loadCSS.relpreload={};rp.support=(function(){var ret;try{ret=w.document.createElement("link").relList.supports("preload")}catch(e){ret=!1}
+return function(){return ret}})();rp.bindMediaToggle=function(link){var finalMedia=link.media||"all";function enableStylesheet(){link.media=finalMedia}
+if(link.addEventListener){link.addEventListener("load",enableStylesheet)}else if(link.attachEvent){link.attachEvent("onload",enableStylesheet)}
+setTimeout(function(){link.rel="stylesheet";link.media="only x"});setTimeout(enableStylesheet,3000)};rp.poly=function(){if(rp.support()){return}
+var links=w.document.getElementsByTagName("link");for(var i=0;i<links.length;i++){var link=links[i];if(link.rel==="preload"&&link.getAttribute("as")==="style"&&!link.getAttribute("data-loadcss")){link.setAttribute("data-loadcss",!0);rp.bindMediaToggle(link)}}};if(!rp.support()){rp.poly();var run=w.setInterval(rp.poly,500);if(w.addEventListener){w.addEventListener("load",function(){rp.poly();w.clearInterval(run)})}else if(w.attachEvent){w.attachEvent("onload",function(){rp.poly();w.clearInterval(run)})}}
+if(typeof exports!=="undefined"){exports.loadCSS=loadCSS}
+else{w.loadCSS=loadCSS}}(typeof global!=="undefined"?global:this))
+</script></head>
+
+<body class="page-template page-template-page-templates page-template-template-fullwidth page-template-page-templatestemplate-fullwidth-php page page-id-10743 tribe-no-js wpb-js-composer js-comp-ver-6.6.0 vc_responsive">
+    
+<div id="wrapper">
+        	<!-- header begin -->
+        <header class="show_topbar_mobile has-header-cta site-header">        
+            <div class="container">
+                <span id="menu-btn"></span>
+                <div class="row">
+                    <div class="col-md-3">
+                        <!-- logo begin -->
+                        <div id="logo">
+                            <div class="inner">
+                                <a href="../index.html">
+                                                                            <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="River of God Church" class="logo-1" data-lazy-src="https://rogchurchkenya.org/wp-content/uploads/2021/05/transparent-logo_317-1.png"><noscript><img src="../wp-content/uploads/2021/05/transparent-logo_317-1.png" alt="River of God Church" class="logo-1"></noscript>
+                                                                
+                                                                            <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" class="logo-2" data-lazy-src="https://rogchurchkenya.org/new/wp-content/uploads/2021/05/transparent-logo_317-1.png"><noscript><img src="../new/wp-content/uploads/2021/05/transparent-logo_317-1.html" alt="" class="logo-2"></noscript>
+                                     
+                                </a>
+                            </div>
+                        </div>
+                        <!-- logo close -->
+                    </div>
+
+                    <div class="col-md-9">
+                                                <div class="octf__cta_button">
+                                                    </div>
+                                                                            <!-- social icons -->
+                            <div class="social header__social">
+                                                                                                  
+                                    <a href="https://www.facebook.com/RiverOfGodKenya/" target="_self" ><i class="fa fa-facebook"></i></a>                            
+                                                                  
+                                    <a href="https://twitter.com/rogchurchkenya" target="_self" ><i class="fa fa-twitter"></i></a>                            
+                                                                  
+                                    <a href="mailto:info@rogchurchkenya.org" target="_self" ><i class="fa fa-envelope-o"></i></a>                            
+                                 
+                            </div>
+                            <!-- social icons close -->
+                                                <!-- mainmenu begin -->
+                        <div id="mainmenu-container">
+                            <ul id="mainmenu" class="menu"><li id="menu-item-12004" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-12004"><a href="../index.html">Home</a></li>
+<li id="menu-item-12010" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-12010"><a href="#">About ROG</a>
+<ul class="sub-menu">
+	<li id="menu-item-12005" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12005"><a href="../about-us/index.html">About us</a></li>
+	<li id="menu-item-12011" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12011"><a href="../admin-staff/index.html">Administration Staff</a></li>
+	<li id="menu-item-12012" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12012"><a href="../ministry-staff/index.html">Ministry Staff</a></li>
+	<li id="menu-item-12006" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-10743 current_page_item menu-item-12006"><a href="index.html" aria-current="page">All sermons</a></li>
+	<li id="menu-item-12113" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-12113"><a href="#">Ministries</a>
+	<ul class="sub-menu">
+		<li id="menu-item-12013" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12013"><a href="../womens-ministry/index.html">Ladies Ministry</a></li>
+		<li id="menu-item-12016" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12016"><a href="../men-ministry/index.html">Men Ministry</a></li>
+		<li id="menu-item-12014" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12014"><a href="../ministry-children/index.html">Children Ministry</a></li>
+		<li id="menu-item-12019" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12019"><a href="../young-adults-alive-ministry/index.html">Young Adults  (ALIVE) Ministry</a></li>
+		<li id="menu-item-12020" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12020"><a href="../youths-ministry/index.html">Youth’s Ministry</a></li>
+		<li id="menu-item-12022" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12022"><a href="../asian-ministry/index.html">Asian Ministry</a></li>
+	</ul>
+</li>
+</ul>
+</li>
+<li id="menu-item-12028" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12028"><a href="../service-bookings/index.html">Service Bookings</a></li>
+<li id="menu-item-12018" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-12018"><a href="#">More</a>
+<ul class="sub-menu">
+	<li id="menu-item-12009" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12009"><a href="../news/index.html">Blogs</a></li>
+	<li id="menu-item-12007" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12007"><a href="../contact-us/index.html">Contact Us</a></li>
+	<li id="menu-item-12021" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12021"><a href="../i-am-new/index.html">I am new</a></li>
+	<li id="menu-item-12026" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-12026"><a href="#">Applications</a>
+	<ul class="sub-menu">
+		<li id="menu-item-12023" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12023"><a href="../baby-dedication/index.html">Baby Dedication Form</a></li>
+		<li id="menu-item-12024" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12024"><a href="../church-water-baptism-form/index.html">Church Water Baptism Form</a></li>
+		<li id="menu-item-12025" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12025"><a href="../prema-wedding-application-form/index.html">PREMA/Wedding Application Form</a></li>
+		<li id="menu-item-12498" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12498"><a href="../discipleship-classes-signup-form/index.html">Discipleship Classes Signup Form</a></li>
+	</ul>
+</li>
+</ul>
+</li>
+<li id="menu-item-12027" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12027"><a href="../book-appointment/index.html">Book Appointment</a></li>
+</ul>                        </div>
+                        <!-- mainmenu close -->
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- header close -->
+    
+            
+            <section id="subheader" data-speed="2" data-type="background"  >
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                                                            <h1 class="entry-title">All sermons</h1>
+                                                                        
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="clearfix"></div>
+            
+    					<section class="wpb_row vc_row-fluid"><div class="container"><div class="row"><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner "  ><div class="wpb_wrapper">
+	<div class="wpb_video_widget wpb_content_element vc_clearfix   vc_video-aspect-ratio-169 vc_video-el-width-100 vc_video-align-left" >
+		<div class="wpb_wrapper">
+			
+			<div class="wpb_video_wrapper"><iframe loading="lazy" title="Christmas Cantata 2021" width="525" height="295" src="about:blank" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen data-rocket-lazyload="fitvidscompatible" data-lazy-src="https://www.youtube.com/embed/p1JOC7M_ySc?feature=oembed"></iframe><noscript><iframe title="Christmas Cantata 2021" width="525" height="295" src="https://www.youtube.com/embed/p1JOC7M_ySc?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></noscript></div>
+		</div>
+	</div>
+</div></div></div><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner "  ><div class="wpb_wrapper">
+	<div class="wpb_video_widget wpb_content_element vc_clearfix   vc_video-aspect-ratio-169 vc_video-el-width-100 vc_video-align-left" >
+		<div class="wpb_wrapper">
+			
+			<div class="wpb_video_wrapper"><iframe loading="lazy" title="What were they Left Doing?" width="525" height="295" src="about:blank" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen data-rocket-lazyload="fitvidscompatible" data-lazy-src="https://www.youtube.com/embed/kF95rv02zEI?feature=oembed"></iframe><noscript><iframe title="What were they Left Doing?" width="525" height="295" src="https://www.youtube.com/embed/kF95rv02zEI?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></noscript></div>
+		</div>
+	</div>
+</div></div></div><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner "  ><div class="wpb_wrapper">
+	<div class="wpb_video_widget wpb_content_element vc_clearfix   vc_video-aspect-ratio-169 vc_video-el-width-100 vc_video-align-left" >
+		<div class="wpb_wrapper">
+			
+			<div class="wpb_video_wrapper"><iframe loading="lazy" title="Faithfulness" width="525" height="295" src="about:blank" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen data-rocket-lazyload="fitvidscompatible" data-lazy-src="https://www.youtube.com/embed/DRNBgfyLH-M?feature=oembed"></iframe><noscript><iframe title="Faithfulness" width="525" height="295" src="https://www.youtube.com/embed/DRNBgfyLH-M?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></noscript></div>
+		</div>
+	</div>
+<div class="vc_btn3-container vc_btn3-right" ><a class="vc_general vc_btn3 vc_btn3-size-lg vc_btn3-shape-rounded vc_btn3-style-modern vc_btn3-color-peacoc" href="https://www.youtube.com/channel/UCTmotqSpm-DWgI7YIax9-8w" title="">LISTEN TO MORE SERMONS</a></div></div></div></div></div></div></section>
+			
+	
+	<!-- footer begin -->
+    <footer class="site-footer">
+	    		    <div class="main-footer">
+		    	<div class="container">
+			    	<div class="row">
+			    		
+
+	<div class="col-md-3 col-sm-6">
+	    <div id="media_image-3" class="widget widget_media_image"><h3 class="widget-title">Who We Are</h3><img width="132" height="127" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20132%20127'%3E%3C/svg%3E" class="image wp-image-11066  attachment-full size-full" alt="" style="max-width: 100%; height: auto;" data-lazy-srcset="https://rogchurchkenya.org/wp-content/uploads/2018/03/kag.png 132w, https://rogchurchkenya.org/wp-content/uploads/2018/03/kag-75x72.png 75w" data-lazy-sizes="(max-width: 132px) 100vw, 132px" data-lazy-src="../wp-content/uploads/2018/03/kag.png" /><noscript><img width="132" height="127" src="../wp-content/uploads/2018/03/kag.png" class="image wp-image-11066  attachment-full size-full" alt="" style="max-width: 100%; height: auto;" srcset="https://rogchurchkenya.org/wp-content/uploads/2018/03/kag.png 132w, https://rogchurchkenya.org/wp-content/uploads/2018/03/kag-75x72.png 75w" sizes="(max-width: 132px) 100vw, 132px" /></noscript></div><div id="text-8" class="widget widget_text">			<div class="textwidget"><p>we are part of KAG churches.</p>
+</div>
+		</div>	</div><!-- end col-lg-3 -->
+
+	<div class="col-md-3 col-sm-6">
+	    <div id="text-9" class="widget widget_text"><h3 class="widget-title">Our Location</h3>			<div class="textwidget"><p>R.O.G Church is located along<br />
+Chiromo Lane, off Ojijo Road</p>
+<p>Box 39733-000623 Parklands, Nairobi Kenya</p>
+<p>&nbsp;</p>
+</div>
+		</div>	</div><!-- end col-lg-3 -->
+
+	<div class="col-md-3 col-sm-6">
+	    <div id="text-10" class="widget widget_text"><h3 class="widget-title">Contact Us</h3>			<div class="textwidget"><p><strong>Phone:</strong><br />
++254 721-274487<br />
++254 733-594624<br />
+<strong>Email</strong>:<br />
+info@rogchurchkenya.org</p>
+<p>&nbsp;</p>
+</div>
+		</div>	</div><!-- end col-lg-3 -->
+
+	<div class="col-md-3 col-sm-6">
+	    <div id="custom_html-3" class="widget_text widget widget_custom_html"><h3 class="widget-title">Location &#8211; Map</h3><div class="textwidget custom-html-widget"><iframe loading="lazy" src="about:blank" width="230" height="180" frameborder="0" style="border:0" allowfullscreen data-rocket-lazyload="fitvidscompatible" data-lazy-src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.8420682530195!2d36.809338349933945!3d-1.2675085990709762!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f173c883df437%3A0x313c277ab4cb6d66!2sRiver+Of+God!5e0!3m2!1sen!2ske!4v1522123752012"></iframe><noscript><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.8420682530195!2d36.809338349933945!3d-1.2675085990709762!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f173c883df437%3A0x313c277ab4cb6d66!2sRiver+Of+God!5e0!3m2!1sen!2ske!4v1522123752012" width="230" height="180" frameborder="0" style="border:0" allowfullscreen></iframe></noscript></div></div>	</div><!-- end col-lg-3 -->
+
+
+
+			    	</div>
+			    </div>
+		    </div>
+	    	    
+    	<div class="sub-footer">
+    		<div class="container">
+	            <div class="row">
+	                <div class="col-md-6">
+		                <div class="copyright">
+		                	© Copyright 2022 - River of God Church, Kenya		                </div>
+	                </div>
+	                <div class="col-md-6">
+	                			                    <nav>
+		                        <ul id="menu-footer-menu" class="menu"><li id="menu-item-13009" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-13009"><a href="../index.html">Home</a></li>
+<li id="menu-item-13010" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13010"><a href="../about-us/index.html">About us</a></li>
+<li id="menu-item-13013" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13013"><a href="../service-bookings/index.html">Service Bookings</a></li>
+<li id="menu-item-13011" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-10743 current_page_item menu-item-13011"><a href="index.html" aria-current="page">All sermons</a></li>
+<li id="menu-item-13012" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13012"><a href="../contact-us/index.html">Contact Us</a></li>
+</ul>		                    </nav>
+	                    	                </div>
+	            </div>
+	        </div>
+    	</div>        
+        <a id="back-to-top" href="#" class="show"></a>
+    </footer>
+    <!-- footer close -->
+
+</div><!-- #wrapper -->
+
+		<script type="rocketlazyloadscript">
+		( function ( body ) {
+			'use strict';
+			body.className = body.className.replace( /\btribe-no-js\b/, 'tribe-js' );
+		} )( document.body );
+		</script>
+		  
+                
+<script type="rocketlazyloadscript"> /* <![CDATA[ */var tribe_l10n_datatables = {"aria":{"sort_ascending":": activate to sort column ascending","sort_descending":": activate to sort column descending"},"length_menu":"Show _MENU_ entries","empty_table":"No data available in table","info":"Showing _START_ to _END_ of _TOTAL_ entries","info_empty":"Showing 0 to 0 of 0 entries","info_filtered":"(filtered from _MAX_ total entries)","zero_records":"No matching records found","search":"Search:","all_selected_text":"All items on this page were selected. ","select_all_link":"Select all pages","clear_selection":"Clear Selection.","pagination":{"all":"All","next":"Next","previous":"Previous"},"select":{"rows":{"0":"","_":": Selected %d rows","1":": Selected 1 row"}},"datepicker":{"dayNames":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"dayNamesShort":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"dayNamesMin":["S","M","T","W","T","F","S"],"monthNames":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthNamesShort":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthNamesMin":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"nextText":"Next","prevText":"Prev","currentText":"Today","closeText":"Done","today":"Today","clear":"Clear"}};/* ]]> */ </script><script type="rocketlazyloadscript" data-rocket-type="text/html" id="wpb-modifications"></script><script type="rocketlazyloadscript" data-rocket-type='text/javascript' src='../wp-includes/js/dist/vendor/regenerator-runtime.minb36a.js?ver=0.13.7' id='regenerator-runtime-js'></script>
+<script type="rocketlazyloadscript" data-rocket-type='text/javascript' src='../wp-includes/js/dist/vendor/wp-polyfill.min2c7c.js?ver=3.15.0' id='wp-polyfill-js'></script>
+<script type='text/javascript' id='contact-form-7-js-extra'>
+/* <![CDATA[ */
+var wpcf7 = {"api":{"root":"https:\/\/rogchurchkenya.org\/wp-json\/","namespace":"contact-form-7\/v1"},"cached":"1"};
+/* ]]> */
+</script>
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-type='text/javascript' src='../wp-content/cache/min/1/wp-content/plugins/contact-form-7/includes/js/indexd71c.js?ver=1625592069' id='contact-form-7-js'></script>
+<script type="rocketlazyloadscript" data-rocket-type='text/javascript' id='rocket-browser-checker-js-after'>
+"use strict";var _createClass=function(){function defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||!1,descriptor.configurable=!0,"value"in descriptor&&(descriptor.writable=!0),Object.defineProperty(target,descriptor.key,descriptor)}}return function(Constructor,protoProps,staticProps){return protoProps&&defineProperties(Constructor.prototype,protoProps),staticProps&&defineProperties(Constructor,staticProps),Constructor}}();function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor))throw new TypeError("Cannot call a class as a function")}var RocketBrowserCompatibilityChecker=function(){function RocketBrowserCompatibilityChecker(options){_classCallCheck(this,RocketBrowserCompatibilityChecker),this.passiveSupported=!1,this._checkPassiveOption(this),this.options=!!this.passiveSupported&&options}return _createClass(RocketBrowserCompatibilityChecker,[{key:"_checkPassiveOption",value:function(self){try{var options={get passive(){return!(self.passiveSupported=!0)}};window.addEventListener("test",null,options),window.removeEventListener("test",null,options)}catch(err){self.passiveSupported=!1}}},{key:"initRequestIdleCallback",value:function(){!1 in window&&(window.requestIdleCallback=function(cb){var start=Date.now();return setTimeout(function(){cb({didTimeout:!1,timeRemaining:function(){return Math.max(0,50-(Date.now()-start))}})},1)}),!1 in window&&(window.cancelIdleCallback=function(id){return clearTimeout(id)})}},{key:"isDataSaverModeOn",value:function(){return"connection"in navigator&&!0===navigator.connection.saveData}},{key:"supportsLinkPrefetch",value:function(){var elem=document.createElement("link");return elem.relList&&elem.relList.supports&&elem.relList.supports("prefetch")&&window.IntersectionObserver&&"isIntersecting"in IntersectionObserverEntry.prototype}},{key:"isSlowConnection",value:function(){return"connection"in navigator&&"effectiveType"in navigator.connection&&("2g"===navigator.connection.effectiveType||"slow-2g"===navigator.connection.effectiveType)}}]),RocketBrowserCompatibilityChecker}();
+</script>
+<script type='text/javascript' id='rocket-preload-links-js-extra'>
+/* <![CDATA[ */
+var RocketPreloadLinksConfig = {"excludeUris":"\/(.+\/)?feed\/?.+\/?|\/(?:.+\/)?embed\/|\/(index\\.php\/)?wp\\-json(\/.*|$)|\/wp-admin\/|\/logout\/|\/wp-login.php","usesTrailingSlash":"1","imageExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif","fileExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif|php|pdf|html|htm","siteUrl":"https:\/\/rogchurchkenya.org","onHoverDelay":"100","rateThrottle":"3"};
+/* ]]> */
+</script>
+<script type="rocketlazyloadscript" data-rocket-type='text/javascript' id='rocket-preload-links-js-after'>
+(function() {
+"use strict";var r="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e},e=function(){function i(e,t){for(var n=0;n<t.length;n++){var i=t[n];i.enumerable=i.enumerable||!1,i.configurable=!0,"value"in i&&(i.writable=!0),Object.defineProperty(e,i.key,i)}}return function(e,t,n){return t&&i(e.prototype,t),n&&i(e,n),e}}();function i(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}var t=function(){function n(e,t){i(this,n),this.browser=e,this.config=t,this.options=this.browser.options,this.prefetched=new Set,this.eventTime=null,this.threshold=1111,this.numOnHover=0}return e(n,[{key:"init",value:function(){!this.browser.supportsLinkPrefetch()||this.browser.isDataSaverModeOn()||this.browser.isSlowConnection()||(this.regex={excludeUris:RegExp(this.config.excludeUris,"i"),images:RegExp(".("+this.config.imageExt+")$","i"),fileExt:RegExp(".("+this.config.fileExt+")$","i")},this._initListeners(this))}},{key:"_initListeners",value:function(e){-1<this.config.onHoverDelay&&document.addEventListener("mouseover",e.listener.bind(e),e.listenerOptions),document.addEventListener("mousedown",e.listener.bind(e),e.listenerOptions),document.addEventListener("touchstart",e.listener.bind(e),e.listenerOptions)}},{key:"listener",value:function(e){var t=e.target.closest("a"),n=this._prepareUrl(t);if(null!==n)switch(e.type){case"mousedown":case"touchstart":this._addPrefetchLink(n);break;case"mouseover":this._earlyPrefetch(t,n,"mouseout")}}},{key:"_earlyPrefetch",value:function(t,e,n){var i=this,r=setTimeout(function(){if(r=null,0===i.numOnHover)setTimeout(function(){return i.numOnHover=0},1e3);else if(i.numOnHover>i.config.rateThrottle)return;i.numOnHover++,i._addPrefetchLink(e)},this.config.onHoverDelay);t.addEventListener(n,function e(){t.removeEventListener(n,e,{passive:!0}),null!==r&&(clearTimeout(r),r=null)},{passive:!0})}},{key:"_addPrefetchLink",value:function(i){return this.prefetched.add(i.href),new Promise(function(e,t){var n=document.createElement("link");n.rel="prefetch",n.href=i.href,n.onload=e,n.onerror=t,document.head.appendChild(n)}).catch(function(){})}},{key:"_prepareUrl",value:function(e){if(null===e||"object"!==(void 0===e?"undefined":r(e))||!1 in e||-1===["http:","https:"].indexOf(e.protocol))return null;var t=e.href.substring(0,this.config.siteUrl.length),n=this._getPathname(e.href,t),i={original:e.href,protocol:e.protocol,origin:t,pathname:n,href:t+n};return this._isLinkOk(i)?i:null}},{key:"_getPathname",value:function(e,t){var n=t?e.substring(this.config.siteUrl.length):e;return n.startsWith("../index.html")||(n="/"+n),this._shouldAddTrailingSlash(n)?n+"/":n}},{key:"_shouldAddTrailingSlash",value:function(e){return this.config.usesTrailingSlash&&!e.endsWith("../index.html")&&!this.regex.fileExt.test(e)}},{key:"_isLinkOk",value:function(e){return null!==e&&"object"===(void 0===e?"undefined":r(e))&&(!this.prefetched.has(e.href)&&e.origin===this.config.siteUrl&&-1===e.href.indexOf("?")&&-1===e.href.indexOf("#")&&!this.regex.excludeUris.test(e.href)&&!this.regex.images.test(e.href))}}],[{key:"run",value:function(){"undefined"!=typeof RocketPreloadLinksConfig&&new n(new RocketBrowserCompatibilityChecker({capture:!0,passive:!0}),RocketPreloadLinksConfig).init()}}]),n}();t.run();
+}());
+</script>
+<script type="rocketlazyloadscript" data-rocket-type='text/javascript' src='../wp-content/themes/blessing/assets/js/bootstrap.min5152.js?ver=1.0' id='blessing-bootstrap-js'></script>
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-type='text/javascript' src='../wp-content/cache/min/1/wp-content/themes/blessing/assets/js/modernizr.customd71c.js?ver=1625592069' id='blessing-modernizr-js'></script>
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-type='text/javascript' src='../wp-content/cache/min/1/wp-content/themes/blessing/assets/js/pluginsd71c.js?ver=1625592069' id='blessing-plugins-js'></script>
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-type='text/javascript' src='../wp-content/cache/min/1/wp-content/themes/blessing/assets/js/mediaelement-and-player2b62.js?ver=1625592070' id='blessing-mediaelement-js'></script>
+<script type="rocketlazyloadscript" data-rocket-type='text/javascript' src='../wp-content/themes/blessing/assets/js/wow.min5152.js?ver=1.0' id='blessing-wow-animate-js'></script>
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-type='text/javascript' src='../wp-content/cache/min/1/wp-content/themes/blessing/assets/js/blessing-custom2b62.js?ver=1625592070' id='blessing-custom-js'></script>
+<script type='text/javascript' src='../wp-includes/js/wp-embed.minc8d8.js?ver=5.8.3' id='wp-embed-js'></script>
+<script type="rocketlazyloadscript" data-rocket-type='text/javascript' src='../wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min31dc.js?ver=6.6.0' id='wpb_composer_front_js-js'></script>
+<script>window.lazyLoadOptions={elements_selector:"img[data-lazy-src],.rocket-lazyload,iframe[data-lazy-src]",data_src:"lazy-src",data_srcset:"lazy-srcset",data_sizes:"lazy-sizes",class_loading:"lazyloading",class_loaded:"lazyloaded",threshold:300,callback_loaded:function(element){if(element.tagName==="IFRAME"&&element.dataset.rocketLazyload=="fitvidscompatible"){if(element.classList.contains("lazyloaded")){if(typeof window.jQuery!="undefined"){if(jQuery.fn.fitVids){jQuery(element).parent().fitVids()}}}}}};window.addEventListener('LazyLoad::Initialized',function(e){var lazyLoadInstance=e.detail.instance;if(window.MutationObserver){var observer=new MutationObserver(function(mutations){var image_count=0;var iframe_count=0;var rocketlazy_count=0;mutations.forEach(function(mutation){for(i=0;i<mutation.addedNodes.length;i++){if(typeof mutation.addedNodes[i].getElementsByTagName!=='function'){continue}
+if(typeof mutation.addedNodes[i].getElementsByClassName!=='function'){continue}
+images=mutation.addedNodes[i].getElementsByTagName('img');is_image=mutation.addedNodes[i].tagName=="IMG";iframes=mutation.addedNodes[i].getElementsByTagName('iframe');is_iframe=mutation.addedNodes[i].tagName=="IFRAME";rocket_lazy=mutation.addedNodes[i].getElementsByClassName('rocket-lazyload');image_count+=images.length;iframe_count+=iframes.length;rocketlazy_count+=rocket_lazy.length;if(is_image){image_count+=1}
+if(is_iframe){iframe_count+=1}}});if(image_count>0||iframe_count>0||rocketlazy_count>0){lazyLoadInstance.update()}});var b=document.getElementsByTagName("body")[0];var config={childList:!0,subtree:!0};observer.observe(b,config)}},!1)</script><script data-no-minify="1" async src="../wp-content/plugins/wp-rocket/assets/js/lazyload/16.1/lazyload.min.html"></script>
+
+<script type="rocketlazyloadscript">"use strict";var wprRemoveCPCSS=function wprRemoveCPCSS(){var elem;document.querySelector('link[data-rocket-async="style"][rel="preload"]')?setTimeout(wprRemoveCPCSS,200):(elem=document.getElementById("rocket-critical-css"))&&"remove"in elem&&elem.remove()};window.addEventListener?window.addEventListener("load",wprRemoveCPCSS):window.attachEvent&&window.attachEvent("onload",wprRemoveCPCSS);</script><noscript><link rel="stylesheet" href="../wp-content/cache/min/1/b676b3b35bbcd07f3e8eaed36bf411b2.css" media="all" data-minify="1" /><link rel='stylesheet' id='blessing-fonts-css'  href='https://fonts.googleapis.com/css?family=Open+Sans%3A300%2C300italic%2C400%2C400italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%7CRoboto+Slab%3A100%2C300%2C400%2C700%7CMontserrat%3A400%2C700%7CMerriweather%3A400%2C700%2C900%2C400italic%2C700italic%2C900italic&amp;subset=latin%2Clatin-ext&amp;display=swap' type='text/css' media='all' /></noscript></body>
+
+<!-- Mirrored from rogchurchkenya.org/all-sermons/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 21 Jun 2022 18:10:06 GMT -->
+</html>
+
+<!-- This website is like a Rocket, isn't it? Performance optimized by WP Rocket. Learn more: https://wp-rocket.me - Debug: cached@1642150209 -->
